@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "navbar.css",
+	"sources": [
+		"../sass/navbar.scss"
+	],
+	"sourcesContent": [
+		"\r\n.navbar{\r\n    height: 4rem;\r\n\r\n    &.big-nav{\r\n        height: 6rem;\r\n    }\r\n\r\n    &.bg-color-black{\r\n        background-color: rgb(0, 0, 0);\r\n        color: white;\r\n    }\r\n\r\n    &.bg-color-white{\r\n        background-color: rgb(255, 255, 255);\r\n    }\r\n\r\n    &.bg-color-light{\r\n        background-color: rgb(243, 234, 234);\r\n        color: white;\r\n    }\r\n\r\n    &.bg-color-green{\r\n        background-color: rgb(22, 80, 14);\r\n    }\r\n\r\n    &.bg-color-blue{\r\n        background-color: rgb(14, 78, 216);\r\n    }\r\n\r\n    &.bg-color-yellow{\r\n        background-color: rgb(226, 230, 18);\r\n    }\r\n\r\n    &.bg-color-pink{\r\n        background-color: rgb(255,105,180);\r\n    }\r\n\r\n    &.bg-color-dark-blue{\r\n        background-color: rgb(96, 3, 245);\r\n        color: white;\r\n    }\r\n\r\n    &.bg-color-grey{\r\n        background-color: rgb(51, 46, 46);\r\n        color: white;\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AACA,AAAA,OAAO,CAAA;EACH,MAAM,EAAE,IAAI;CA6Cf;;;AA9CD,AAGI,OAHG,AAGF,QAAQ,CAAA;EACL,MAAM,EAAE,IAAI;CACf;;;AALL,AAOI,OAPG,AAOF,eAAe,CAAA;EACZ,gBAAgB,EAAE,KAAY;EAC9B,KAAK,EAAE,KAAK;CACf;;;AAVL,AAYI,OAZG,AAYF,eAAe,CAAA;EACZ,gBAAgB,EAAE,KAAkB;CACvC;;;AAdL,AAgBI,OAhBG,AAgBF,eAAe,CAAA;EACZ,gBAAgB,EAAE,OAAkB;EACpC,KAAK,EAAE,KAAK;CACf;;;AAnBL,AAqBI,OArBG,AAqBF,eAAe,CAAA;EACZ,gBAAgB,EAAE,OAAe;CACpC;;;AAvBL,AAyBI,OAzBG,AAyBF,cAAc,CAAA;EACX,gBAAgB,EAAE,OAAgB;CACrC;;;AA3BL,AA6BI,OA7BG,AA6BF,gBAAgB,CAAA;EACb,gBAAgB,EAAE,OAAiB;CACtC;;;AA/BL,AAiCI,OAjCG,AAiCF,cAAc,CAAA;EACX,gBAAgB,EAAE,OAAgB;CACrC;;;AAnCL,AAqCI,OArCG,AAqCF,mBAAmB,CAAA;EAChB,gBAAgB,EAAE,OAAe;EACjC,KAAK,EAAE,KAAK;CACf;;;AAxCL,AA0CI,OA1CG,AA0CF,cAAc,CAAA;EACX,gBAAgB,EAAE,OAAe;EACjC,KAAK,EAAE,KAAK;CACf"
+}
