@@ -1,48 +1,85 @@
-
-.navbar{
+.navbar {
+    display: flex;
+    flex-direction: row;
     height: 4rem;
 
-    &.big-nav{
+    &.big-nav {
         height: 6rem;
     }
 
-    &.bg-color-black{
+    &.bg-color-black {
         background-color: rgb(0, 0, 0);
         color: white;
     }
 
-    &.bg-color-white{
+    &.bg-color-white {
         background-color: rgb(255, 255, 255);
     }
 
-    &.bg-color-light{
+    &.bg-color-light {
         background-color: rgb(243, 234, 234);
         color: white;
     }
 
-    &.bg-color-green{
+    &.bg-color-green {
         background-color: rgb(22, 80, 14);
     }
 
-    &.bg-color-blue{
+    &.bg-color-blue {
         background-color: rgb(14, 78, 216);
     }
 
-    &.bg-color-yellow{
+    &.bg-color-yellow {
         background-color: rgb(226, 230, 18);
     }
 
-    &.bg-color-pink{
-        background-color: rgb(255,105,180);
+    &.bg-color-pink {
+        background-color: rgb(255, 105, 180);
     }
 
-    &.bg-color-dark-blue{
+    &.bg-color-dark-blue {
         background-color: rgb(96, 3, 245);
         color: white;
     }
 
-    &.bg-color-grey{
+    &.bg-color-grey {
         background-color: rgb(51, 46, 46);
         color: white;
+    }
+
+    &-logo {
+        padding: 0.5rem;
+        width: 5rem;
+    }
+
+    &-conteiner {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+
+        .nav-menu{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+
+            .nav-item{
+                padding: 0.75rem 1rem;
+
+                // dodac kolory do linkow
+                .menu-link{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .nav-center {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 }

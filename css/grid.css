@@ -1,16 +1,16 @@
-/* line 1, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+/* line 1, D:/Kaerndal/Kaerndal/sass/grid.scss */
 * {
   outline: 1px solid red;
 }
 
-/* line 7, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+/* line 7, D:/Kaerndal/Kaerndal/sass/grid.scss */
 body, html {
   margin: 0;
   padding: 0;
   font-size: 16px;
 }
 
-/* line 17, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+/* line 17, D:/Kaerndal/Kaerndal/sass/grid.scss */
 .row {
   display: flex;
   flex-direction: row;
@@ -18,18 +18,18 @@ body, html {
   padding: 0.5rem;
 }
 
-/* line 23, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+/* line 23, D:/Kaerndal/Kaerndal/sass/grid.scss */
 .row > * {
   max-width: 100%;
 }
 
-/* line 27, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+/* line 27, D:/Kaerndal/Kaerndal/sass/grid.scss */
 .row .col {
   flex: 1 0 auto;
   padding: 0.5rem;
 }
 
-/* line 31, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+/* line 31, D:/Kaerndal/Kaerndal/sass/grid.scss */
 .row .col.total-center {
   display: flex;
   flex-direction: column;
@@ -37,14 +37,14 @@ body, html {
   align-items: center;
 }
 
-/* line 38, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+/* line 38, D:/Kaerndal/Kaerndal/sass/grid.scss */
 .row .col.vertical-center {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-/* line 44, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+/* line 44, D:/Kaerndal/Kaerndal/sass/grid.scss */
 .row .col.horizontal-center {
   display: flex;
   flex-direction: column;
@@ -52,666 +52,666 @@ body, html {
 }
 
 @media only screen and (min-width: 1400px) {
-  /* line 52, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 52, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.bigger-1 {
     flex: 0 0 auto;
     width: calc(8.3333% - 1rem);
   }
-  /* line 57, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 57, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.bigger-2 {
     flex: 0 0 auto;
     width: calc(16.6667% - 1rem);
   }
-  /* line 62, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 62, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.bigger-3 {
     flex: 0 0 auto;
     width: calc(25% - 1rem);
   }
-  /* line 67, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 67, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.bigger-4 {
     flex: 0 0 auto;
     width: calc(33.3333% - 1rem);
   }
-  /* line 72, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 72, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.bigger-5 {
     flex: 0 0 auto;
     width: calc(41.6667% - 1rem);
   }
-  /* line 77, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 77, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.bigger-6 {
     flex: 0 0 auto;
     width: calc(50.0% - 1rem);
   }
-  /* line 82, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 82, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.bigger-7 {
     flex: 0 0 auto;
     width: calc(58.3333% - 1rem);
   }
-  /* line 87, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 87, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.bigger-8 {
     flex: 0 0 auto;
     width: calc(66.6667% - 1rem);
   }
-  /* line 92, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 92, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.bigger-9 {
     flex: 0 0 auto;
     width: calc(75% - 1rem);
   }
-  /* line 97, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 97, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.bigger-10 {
     flex: 0 0 auto;
     width: calc(83.3333% - 1rem);
   }
-  /* line 102, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 102, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.bigger-11 {
     flex: 0 0 auto;
     width: calc(91.6667% - 1rem);
   }
-  /* line 107, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 107, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.bigger-12 {
     flex: 0 0 auto;
     width: calc(100% - 1rem);
   }
-  /* line 112, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 112, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-bigger-1 {
     margin-left: 8.3333%;
   }
-  /* line 116, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 116, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-bigger-2 {
     margin-left: 16.6667%;
   }
-  /* line 120, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 120, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-bigger-3 {
     margin-left: 25%;
   }
-  /* line 124, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 124, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-bigger-4 {
     margin-left: 33.3333%;
   }
-  /* line 128, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 128, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-bigger-5 {
     margin-left: 41.6667%;
   }
-  /* line 132, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 132, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-bigger-6 {
     margin-left: 50.0%;
   }
-  /* line 136, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 136, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-bigger-7 {
     margin-left: 58.3333%;
   }
-  /* line 140, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 140, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-bigger-8 {
     margin-left: 66.6667%;
   }
-  /* line 144, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 144, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-bigger-9 {
     margin-left: 75%;
   }
-  /* line 148, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 148, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-bigger-10 {
     margin-left: 83.3333%;
   }
-  /* line 152, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 152, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-bigger-11 {
     margin-left: 91.6667%;
   }
-  /* line 156, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 156, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-bigger-12 {
     margin-left: 100%;
   }
 }
 
 @media only screen and (max-width: 1400px) {
-  /* line 162, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 162, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.big-1 {
     flex: 0 0 auto;
     width: calc(8.3333% - 1rem);
   }
-  /* line 167, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 167, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.big-2 {
     flex: 0 0 auto;
     width: calc(16.6667% - 1rem);
   }
-  /* line 172, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 172, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.big-3 {
     flex: 0 0 auto;
     width: calc(25% - 1rem);
   }
-  /* line 177, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 177, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.big-4 {
     flex: 0 0 auto;
     width: calc(33.3333% - 1rem);
   }
-  /* line 182, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 182, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.big-5 {
     flex: 0 0 auto;
     width: calc(41.6667% - 1rem);
   }
-  /* line 187, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 187, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.big-6 {
     flex: 0 0 auto;
     width: calc(50.0% - 1rem);
   }
-  /* line 192, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 192, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.big-7 {
     flex: 0 0 auto;
     width: calc(58.3333% - 1rem);
   }
-  /* line 197, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 197, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.big-8 {
     flex: 0 0 auto;
     width: calc(66.6667% - 1rem);
   }
-  /* line 202, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 202, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.big-9 {
     flex: 0 0 auto;
     width: calc(75% - 1rem);
   }
-  /* line 207, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 207, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.big-10 {
     flex: 0 0 auto;
     width: calc(83.3333% - 1rem);
   }
-  /* line 212, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 212, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.big-11 {
     flex: 0 0 auto;
     width: calc(91.6667% - 1rem);
   }
-  /* line 217, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 217, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.big-12 {
     flex: 0 0 auto;
     width: calc(100% - 1rem);
   }
-  /* line 222, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 222, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-big-1 {
     margin-left: 8.3333%;
   }
-  /* line 226, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 226, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-big-2 {
     margin-left: 16.6667%;
   }
-  /* line 230, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 230, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-big-3 {
     margin-left: 25%;
   }
-  /* line 234, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 234, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-big-4 {
     margin-left: 33.3333%;
   }
-  /* line 238, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 238, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-big-5 {
     margin-left: 41.6667%;
   }
-  /* line 242, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 242, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-big-6 {
     margin-left: 50.0%;
   }
-  /* line 246, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 246, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-big-7 {
     margin-left: 58.3333%;
   }
-  /* line 250, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 250, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-big-8 {
     margin-left: 66.6667%;
   }
-  /* line 254, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 254, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-big-9 {
     margin-left: 75%;
   }
-  /* line 258, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 258, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-big-10 {
     margin-left: 83.3333%;
   }
-  /* line 262, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 262, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-big-11 {
     margin-left: 91.6667%;
   }
-  /* line 266, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 266, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-big-12 {
     margin-left: 100%;
   }
 }
 
 @media only screen and (max-width: 1200px) {
-  /* line 272, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 272, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.xlarge-1 {
     flex: 0 0 auto;
     width: calc(8.3333% - 1rem);
   }
-  /* line 277, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 277, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.xlarge-2 {
     flex: 0 0 auto;
     width: calc(16.6667% - 1rem);
   }
-  /* line 282, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 282, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.xlarge-3 {
     flex: 0 0 auto;
     width: calc(25% - 1rem);
   }
-  /* line 287, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 287, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.xlarge-4 {
     flex: 0 0 auto;
     width: calc(33.3333% - 1rem);
   }
-  /* line 292, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 292, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.xlarge-5 {
     flex: 0 0 auto;
     width: calc(41.6667% - 1rem);
   }
-  /* line 297, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 297, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.xlarge-6 {
     flex: 0 0 auto;
     width: calc(50% - 1rem);
   }
-  /* line 302, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 302, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.xlarge-7 {
     flex: 0 0 auto;
     width: calc(58.3333% - 1rem);
   }
-  /* line 307, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 307, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.xlarge-8 {
     flex: 0 0 auto;
     width: calc(66.6667% - 1rem);
   }
-  /* line 312, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 312, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.xlarge-9 {
     flex: 0 0 auto;
     width: calc(75% - 1rem);
   }
-  /* line 317, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 317, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.xlarge-10 {
     flex: 0 0 auto;
     width: calc(83.3333% - 1rem);
   }
-  /* line 322, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 322, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.xlarge-11 {
     flex: 0 0 auto;
     width: calc(91.6667% - 1rem);
   }
-  /* line 327, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 327, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.xlarge-12 {
     flex: 0 0 auto;
     width: calc(100% - 1rem);
   }
-  /* line 332, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 332, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-xlarge-1 {
     margin-left: 8.3333%;
   }
-  /* line 336, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 336, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-xlarge-2 {
     margin-left: 16.6667%;
   }
-  /* line 340, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 340, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-xlarge-3 {
     margin-left: 25%;
   }
-  /* line 344, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 344, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-xlarge-4 {
     margin-left: 33.3333%;
   }
-  /* line 348, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 348, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-xlarge-5 {
     margin-left: 41.6667%;
   }
-  /* line 352, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 352, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-xlarge-6 {
     margin-left: 50.0%;
   }
-  /* line 356, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 356, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-xlarge-7 {
     margin-left: 58.3333%;
   }
-  /* line 360, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 360, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-xlarge-8 {
     margin-left: 66.6667%;
   }
-  /* line 364, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 364, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-xlarge-9 {
     margin-left: 75%;
   }
-  /* line 368, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 368, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-xlarge-10 {
     margin-left: 83.3333%;
   }
-  /* line 372, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 372, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-xlarge-11 {
     margin-left: 91.6667%;
   }
-  /* line 376, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 376, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-xlarge-12 {
     margin-left: 100%;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 382, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 382, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.large-1 {
     flex: 0 0 auto;
     width: calc(8.3333% - 1rem);
   }
-  /* line 387, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 387, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.large-2 {
     flex: 0 0 auto;
     width: calc(16.6667% - 1rem);
   }
-  /* line 392, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 392, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.large-3 {
     flex: 0 0 auto;
     width: calc(25% - 1rem);
   }
-  /* line 397, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 397, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.large-4 {
     flex: 0 0 auto;
     width: calc(33.3333% - 1rem);
   }
-  /* line 402, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 402, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.large-5 {
     flex: 0 0 auto;
     width: calc(41.6667% - 1rem);
   }
-  /* line 407, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 407, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.large-6 {
     flex: 0 0 auto;
     width: calc(50% - 1rem);
   }
-  /* line 412, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 412, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.large-7 {
     flex: 0 0 auto;
     width: calc(58.3333% - 1rem);
   }
-  /* line 417, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 417, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.large-8 {
     flex: 0 0 auto;
     width: calc(66.6667% - 1rem);
   }
-  /* line 422, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 422, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.large-9 {
     flex: 0 0 auto;
     width: calc(75% - 1rem);
   }
-  /* line 427, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 427, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.large-10 {
     flex: 0 0 auto;
     width: calc(83.3333% - 1rem);
   }
-  /* line 432, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 432, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.large-11 {
     flex: 0 0 auto;
     width: calc(91.6667% - 1rem);
   }
-  /* line 437, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 437, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.large-12 {
     flex: 0 0 auto;
     width: calc(100% - 1rem);
   }
-  /* line 442, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 442, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-large-1 {
     margin-left: 8.3333%;
   }
-  /* line 446, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 446, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-large-2 {
     margin-left: 16.6667%;
   }
-  /* line 450, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 450, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-large-3 {
     margin-left: 25%;
   }
-  /* line 454, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 454, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-large-4 {
     margin-left: 33.3333%;
   }
-  /* line 458, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 458, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-large-5 {
     margin-left: 41.6667%;
   }
-  /* line 462, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 462, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-large-6 {
     margin-left: 50.0%;
   }
-  /* line 466, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 466, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-large-7 {
     margin-left: 58.3333%;
   }
-  /* line 470, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 470, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-large-8 {
     margin-left: 66.6667%;
   }
-  /* line 474, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 474, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-large-9 {
     margin-left: 75%;
   }
-  /* line 478, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 478, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-large-10 {
     margin-left: 83.3333%;
   }
-  /* line 482, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 482, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-large-11 {
     margin-left: 91.6667%;
   }
-  /* line 486, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 486, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-large-12 {
     margin-left: 100%;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  /* line 492, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 492, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.medium-1 {
     flex: 0 0 auto;
     width: calc(8.3333% - 1rem);
   }
-  /* line 497, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 497, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.medium-2 {
     flex: 0 0 auto;
     width: calc(16.6667% - 1rem);
   }
-  /* line 502, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 502, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.medium-3 {
     flex: 0 0 auto;
     width: calc(25% - 1rem);
   }
-  /* line 507, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 507, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.medium-4 {
     flex: 0 0 auto;
     width: calc(33.3333% - 1rem);
   }
-  /* line 512, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 512, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.medium-5 {
     flex: 0 0 auto;
     width: calc(41.6667% - 1rem);
   }
-  /* line 517, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 517, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.medium-6 {
     flex: 0 0 auto;
     width: calc(50% - 1rem);
   }
-  /* line 522, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 522, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.medium-7 {
     flex: 0 0 auto;
     width: calc(58.3333% - 1rem);
   }
-  /* line 527, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 527, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.medium-8 {
     flex: 0 0 auto;
     width: calc(66.6667% - 1rem);
   }
-  /* line 532, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 532, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.medium-9 {
     flex: 0 0 auto;
     width: calc(75% - 1rem);
   }
-  /* line 537, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 537, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.medium-10 {
     flex: 0 0 auto;
     width: calc(83.3333% - 1rem);
   }
-  /* line 542, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 542, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.medium-11 {
     flex: 0 0 auto;
     width: calc(91.6667% - 1rem);
   }
-  /* line 547, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 547, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.medium-12 {
     flex: 0 0 auto;
     width: calc(100% - 1rem);
   }
-  /* line 552, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 552, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-medium-1 {
     margin-left: 8.3333%;
   }
-  /* line 556, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 556, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-medium-2 {
     margin-left: 16.6667%;
   }
-  /* line 560, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 560, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-medium-3 {
     margin-left: 25%;
   }
-  /* line 564, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 564, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-medium-4 {
     margin-left: 33.3333%;
   }
-  /* line 568, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 568, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-medium-5 {
     margin-left: 41.6667%;
   }
-  /* line 572, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 572, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-medium-6 {
     margin-left: 50.0%;
   }
-  /* line 576, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 576, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-medium-7 {
     margin-left: 58.3333%;
   }
-  /* line 580, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 580, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-medium-8 {
     margin-left: 66.6667%;
   }
-  /* line 584, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 584, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-medium-9 {
     margin-left: 75%;
   }
-  /* line 588, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 588, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-medium-10 {
     margin-left: 83.3333%;
   }
-  /* line 592, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 592, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-medium-11 {
     margin-left: 91.6667%;
   }
-  /* line 596, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 596, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-medium-12 {
     margin-left: 100%;
   }
 }
 
 @media only screen and (max-width: 576px) {
-  /* line 603, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 603, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.small-1 {
     flex: 0 0 auto;
     width: calc(8.3333% - 1rem);
   }
-  /* line 608, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 608, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.small-2 {
     flex: 0 0 auto;
     width: calc(16.6667% - 1rem);
   }
-  /* line 613, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 613, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.small-3 {
     flex: 0 0 auto;
     width: calc(25% - 1rem);
   }
-  /* line 618, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 618, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.small-4 {
     flex: 0 0 auto;
     width: calc(33.3333% - 1rem);
   }
-  /* line 623, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 623, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.small-5 {
     flex: 0 0 auto;
     width: calc(41.6667% - 1rem);
   }
-  /* line 628, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 628, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.small-6 {
     flex: 0 0 auto;
     width: calc(50.0% - 1rem);
   }
-  /* line 633, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 633, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.small-7 {
     flex: 0 0 auto;
     width: calc(58.3333% - 1rem);
   }
-  /* line 638, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 638, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.small-8 {
     flex: 0 0 auto;
     width: calc(66.6667% - 1rem);
   }
-  /* line 643, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 643, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.small-9 {
     flex: 0 0 auto;
     width: calc(75% - 1rem);
   }
-  /* line 648, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 648, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.small-10 {
     flex: 0 0 auto;
     width: calc(83.3333% - 1rem);
   }
-  /* line 653, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 653, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.small-11 {
     flex: 0 0 auto;
     width: calc(91.6667% - 1rem);
   }
-  /* line 658, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 658, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.small-12 {
     flex: 0 0 auto;
     width: calc(100% - 1rem);
   }
-  /* line 663, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 663, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-small-1 {
     margin-left: 8.3333%;
   }
-  /* line 667, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 667, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-small-2 {
     margin-left: 16.6667%;
   }
-  /* line 671, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 671, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-small-3 {
     margin-left: 25%;
   }
-  /* line 675, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 675, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-small-4 {
     margin-left: 33.3333%;
   }
-  /* line 679, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 679, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-small-5 {
     margin-left: 41.6667%;
   }
-  /* line 683, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 683, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-small-6 {
     margin-left: 50.0%;
   }
-  /* line 687, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 687, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-small-7 {
     margin-left: 58.3333%;
   }
-  /* line 691, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 691, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-small-8 {
     margin-left: 66.6667%;
   }
-  /* line 695, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 695, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-small-9 {
     margin-left: 75%;
   }
-  /* line 699, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 699, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-small-10 {
     margin-left: 83.3333%;
   }
-  /* line 703, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 703, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-small-11 {
     margin-left: 91.6667%;
   }
-  /* line 707, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 707, D:/Kaerndal/Kaerndal/sass/grid.scss */
   .row .col.offset-small-12 {
     margin-left: 100%;
   }
