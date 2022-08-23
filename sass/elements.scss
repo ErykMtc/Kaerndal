@@ -1,0 +1,76 @@
+.button{
+    border: none;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    
+    &:hover{
+        background-color: rgb(235, 235, 235);
+    }
+
+    &.button-info{
+        background-color: rgb(24, 197, 228);
+        color: rgb(255, 255, 255);
+    }
+
+    &.button-primary{
+        background-color: rgb(147, 20, 206);
+        color: rgb(255, 255, 255);
+    }
+    
+    &.button-success{
+        background-color: rgb(14, 211, 57);
+        color: rgb(255, 255, 255);
+    }
+
+    &.button-danger{
+        background-color: rgb(224, 55, 26);
+        color: rgb(255, 255, 255);
+    }
+
+    &.button-warning{
+        background-color: rgb(228, 225, 24);
+        color: rgb(255, 255, 255);
+    }
+    
+    &.button-link{
+        background-color: rgb(24, 228, 177);
+        color: rgb(255, 255, 255);
+    }
+
+    &.button-size-xlarge{
+        font-size: 2rem;
+        padding: 1.75rem 2rem;
+    }
+
+    &.button-size-large{
+        font-size: 1.5rem;
+        padding: 1.25rem 1.5rem;
+    }
+
+    &.button-size-medium{
+        font-size: 1.25rem;
+        padding: 1rem 1.25rem;
+    }
+
+    &.button-size-small{
+        font-size: 0.75rem;
+        padding: 0.5rem 0.75rem;
+    }
+
+    &.button-opacity-medium{
+        opacity: 50%;
+    }
+    
+    &.button-opacity-high{
+        opacity: 75%;
+    }
+
+    &.button-opacity-low{
+        opacity: 25%;
+    }
+
+    
+}

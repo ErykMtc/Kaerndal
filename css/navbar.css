@@ -1,79 +1,84 @@
-/* line 1, D:/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 3, ../../Desktop/Kaerndal/Kaerndal/sass/_var.scss */
+.bg-color-black {
+  background-color: black;
+  color: white;
+}
+
+/* line 8, ../../Desktop/Kaerndal/Kaerndal/sass/_var.scss */
+.bg-color-white {
+  background-color: white;
+}
+
+/* line 12, ../../Desktop/Kaerndal/Kaerndal/sass/_var.scss */
+.bg-color-light {
+  background-color: #f3eaea;
+  color: white;
+}
+
+/* line 17, ../../Desktop/Kaerndal/Kaerndal/sass/_var.scss */
+.bg-color-green {
+  background-color: #16500e;
+}
+
+/* line 21, ../../Desktop/Kaerndal/Kaerndal/sass/_var.scss */
+.bg-color-blue {
+  background-color: #0e4ed8;
+}
+
+/* line 25, ../../Desktop/Kaerndal/Kaerndal/sass/_var.scss */
+.bg-color-yellow {
+  background-color: #e2e612;
+}
+
+/* line 29, ../../Desktop/Kaerndal/Kaerndal/sass/_var.scss */
+.bg-color-pink {
+  background-color: hotpink;
+}
+
+/* line 33, ../../Desktop/Kaerndal/Kaerndal/sass/_var.scss */
+.bg-color-dark-blue {
+  background-color: #6003f5;
+  color: white;
+}
+
+/* line 38, ../../Desktop/Kaerndal/Kaerndal/sass/_var.scss */
+.bg-color-grey {
+  background-color: #332e2e;
+  color: white;
+}
+
+/* line 3, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar {
   display: flex;
   flex-direction: row;
   height: 4rem;
 }
 
-/* line 6, D:/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 8, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar.big-nav {
   height: 6rem;
 }
 
-/* line 10, D:/Kaerndal/Kaerndal/sass/navbar.scss */
-.navbar.bg-color-black {
-  background-color: black;
-  color: white;
-}
-
-/* line 15, D:/Kaerndal/Kaerndal/sass/navbar.scss */
-.navbar.bg-color-white {
-  background-color: white;
-}
-
-/* line 19, D:/Kaerndal/Kaerndal/sass/navbar.scss */
-.navbar.bg-color-light {
-  background-color: #f3eaea;
-  color: white;
-}
-
-/* line 24, D:/Kaerndal/Kaerndal/sass/navbar.scss */
-.navbar.bg-color-green {
-  background-color: #16500e;
-}
-
-/* line 28, D:/Kaerndal/Kaerndal/sass/navbar.scss */
-.navbar.bg-color-blue {
-  background-color: #0e4ed8;
-}
-
-/* line 32, D:/Kaerndal/Kaerndal/sass/navbar.scss */
-.navbar.bg-color-yellow {
-  background-color: #e2e612;
-}
-
-/* line 36, D:/Kaerndal/Kaerndal/sass/navbar.scss */
-.navbar.bg-color-pink {
-  background-color: hotpink;
-}
-
-/* line 40, D:/Kaerndal/Kaerndal/sass/navbar.scss */
-.navbar.bg-color-dark-blue {
-  background-color: #6003f5;
-  color: white;
-}
-
-/* line 45, D:/Kaerndal/Kaerndal/sass/navbar.scss */
-.navbar.bg-color-grey {
-  background-color: #332e2e;
-  color: white;
-}
-
-/* line 50, D:/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 12, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar-logo {
   padding: 0.5rem;
   width: 5rem;
 }
 
-/* line 55, D:/Kaerndal/Kaerndal/sass/navbar.scss */
-.navbar-conteiner {
+/* line 17, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+.navbar-container {
   flex: 1;
   display: flex;
   flex-direction: row;
 }
 
-/* line 60, D:/Kaerndal/Kaerndal/sass/navbar.scss */
-.navbar-conteiner .nav-menu {
+/* line 22, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+.navbar-container .menu-left {
+  justify-content: flex-start;
+}
+
+/* line 28, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+.navbar-container .nav-menu {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -81,18 +86,40 @@
   flex-direction: row;
 }
 
-/* line 67, D:/Kaerndal/Kaerndal/sass/navbar.scss */
-.navbar-conteiner .nav-menu .nav-item {
-  padding: 0.75rem 1rem;
+/* line 35, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+.navbar-container .nav-menu .nav-item {
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  transition-duration: 0.4s;
 }
 
-/* line 71, D:/Kaerndal/Kaerndal/sass/navbar.scss */
-.navbar-conteiner .nav-menu .nav-item .menu-link {
+/* line 43, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+.navbar-container .nav-menu .nav-item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+  height: 100%;
   text-decoration: none;
   color: white;
+  font-weight: bold;
 }
 
-/* line 79, D:/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 55, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+.navbar-container .nav-menu .nav-item:hover {
+  background-color: orange;
+}
+
+/* line 58, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+.navbar-container .nav-menu .nav-item:hover a {
+  color: white;
+  font-weight: bold;
+}
+
+/* line 85, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar .nav-center {
   display: flex;
   flex-direction: row;

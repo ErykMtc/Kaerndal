@@ -1,0 +1,91 @@
+/* line 1, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+.button {
+  border: none;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+/* line 9, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+.button:hover {
+  background-color: #ebebeb;
+}
+
+/* line 13, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+.button.button-info {
+  background-color: #18c5e4;
+  color: white;
+}
+
+/* line 18, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+.button.button-primary {
+  background-color: #9314ce;
+  color: white;
+}
+
+/* line 23, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+.button.button-success {
+  background-color: #0ed339;
+  color: white;
+}
+
+/* line 28, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+.button.button-danger {
+  background-color: #e0371a;
+  color: white;
+}
+
+/* line 33, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+.button.button-warning {
+  background-color: #e4e118;
+  color: white;
+}
+
+/* line 38, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+.button.button-link {
+  background-color: #18e4b1;
+  color: white;
+}
+
+/* line 43, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+.button.button-size-xlarge {
+  font-size: 2rem;
+  padding: 1.75rem 2rem;
+}
+
+/* line 48, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+.button.button-size-large {
+  font-size: 1.5rem;
+  padding: 1.25rem 1.5rem;
+}
+
+/* line 53, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+.button.button-size-medium {
+  font-size: 1.25rem;
+  padding: 1rem 1.25rem;
+}
+
+/* line 58, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+.button.button-size-small {
+  font-size: 0.75rem;
+  padding: 0.5rem 0.75rem;
+}
+
+/* line 63, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+.button.button-opacity-medium {
+  opacity: 50%;
+}
+
+/* line 67, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+.button.button-opacity-high {
+  opacity: 75%;
+}
+
+/* line 71, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+.button.button-opacity-low {
+  opacity: 25%;
+}
+
+/*# sourceMappingURL=elements.css.map */
