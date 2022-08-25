@@ -269,25 +269,60 @@
   background-color: aqua;
 }
 
-/* line 215, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 216, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar .menuToggle .navbar-container .nav-menu {
   flex-direction: column;
 }
 
-/* line 221, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 222, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar .menuToggle input:not(:checked) ~ .navbar-container {
   display: none;
 }
 
-/* line 233, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 234, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar .menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/* line 241, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 242, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar .menuToggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
+}
+
+@media (min-width: 576px) {
+  /* line 249, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .mobile-nav-small {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 255, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .mobile-nav-medium {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 261, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .mobile-nav-large {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 267, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .mobile-nav-large {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* line 273, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .mobile-nav-large {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=navbar.css.map */
