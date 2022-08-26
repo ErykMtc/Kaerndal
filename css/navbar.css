@@ -46,46 +46,46 @@
   color: white;
 }
 
-/* line 104, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 99, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .hamburger {
   z-index: 0;
   position: absolute;
 }
 
-/* line 109, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 104, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar {
   display: flex;
   flex-direction: row;
   height: 4rem;
 }
 
-/* line 114, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 109, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar.big-nav {
   height: 6rem;
 }
 
-/* line 118, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 113, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar.medium-nav {
   height: 5rem;
 }
 
-/* line 122, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 117, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar.small-nav {
   height: 3.25rem;
 }
 
-/* line 125, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 120, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar.small-nav .navbar-container {
   padding: 0.125rem 0.75rem;
 }
 
-/* line 130, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 125, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar-logo {
   padding: 0.5rem;
   width: 5rem;
 }
 
-/* line 135, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 130, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar-container {
   flex: 1;
   padding: 0.5rem 1rem;
@@ -93,7 +93,7 @@
   flex-direction: row;
 }
 
-/* line 141, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 136, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar-container .nav-menu {
   list-style: none;
   padding: 0;
@@ -102,32 +102,32 @@
   flex-direction: row;
 }
 
-/* line 148, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 143, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar-container .nav-menu.menu-fluid {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
 
-/* line 154, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 149, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar-container .nav-menu.menu-right {
   justify-content: end;
   align-items: center;
 }
 
-/* line 159, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 154, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar-container .nav-menu.menu-left {
   justify-content: start;
   align-items: center;
 }
 
-/* line 164, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 159, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar-container .nav-menu.menu-center {
   justify-content: center;
   align-items: center;
 }
 
-/* line 169, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 164, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar-container .nav-menu .nav-item {
   height: 3rem;
   display: flex;
@@ -136,7 +136,7 @@
   transition-duration: 0.4s;
 }
 
-/* line 177, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 172, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar-container .nav-menu .nav-item .menu-link {
   display: flex;
   flex-direction: column;
@@ -149,28 +149,28 @@
   font-weight: bold;
 }
 
-/* line 189, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 184, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar-container .nav-menu .nav-item:hover {
   background-color: orange;
 }
 
-/* line 192, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 187, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar-container .nav-menu .nav-item:hover .menu-link {
   color: white;
   font-weight: bold;
 }
 
-/* line 201, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 196, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar-container .nav-menu.red-style .nav-item .menu-link {
   color: red;
 }
 
-/* line 205, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 200, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar-container .nav-menu.red-style .nav-item:hover {
   background-color: white;
 }
 
-/* line 213, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 208, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar .nav-center {
   display: flex;
   flex-direction: row;
@@ -178,22 +178,22 @@
   align-items: center;
 }
 
-/* line 220, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 215, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar .nav-left {
   justify-content: start;
 }
 
-/* line 224, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 219, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar .nav-right {
   justify-content: end;
 }
 
-/* line 228, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 223, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar .nav-top {
   align-items: flex-start;
 }
 
-/* line 232, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+/* line 227, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
 .navbar .nav-down {
   align-items: flex-end;
 }
@@ -215,7 +215,7 @@
     cursor: pointer;
   }
   /* line 21, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle label span {
+  .hamburger-label span {
     display: block;
     width: 32px;
     height: 4px;
@@ -228,28 +228,28 @@
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
   /* line 40, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle span:first-child {
+  .hamburger-line:first-child {
     transform-origin: 0% 0%;
   }
   /* line 44, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle span:nth-last-child(2) {
+  .hamburger-line:nth-last-child(2) {
     transform-origin: 0% 100%;
   }
   /* line 49, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle input:checked ~ label span {
+  .hamburger:checked ~ .hamburger-label span {
     opacity: 1;
     transform: rotate(-45deg) translate(2px, 2px);
     background: #232323;
   }
-  /* line 59, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle .mobile-nav-medium {
+  /* line 55, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .mobile-nav-medium {
     position: relative;
     flex-direction: column;
     z-index: 1;
     width: 100%;
   }
-  /* line 65, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle .mobile-nav-medium .navbar-container {
+  /* line 61, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .mobile-nav-medium .navbar-container {
     flex-direction: column;
     position: relative;
     z-index: 1;
@@ -257,31 +257,31 @@
     background-color: aqua;
     width: calc(100% - 6rem);
   }
-  /* line 73, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle .mobile-nav-medium .navbar-container .nav-menu {
+  /* line 69, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .mobile-nav-medium .navbar-container .nav-menu {
     position: relative;
     flex-direction: column;
     width: 100%;
   }
-  /* line 79, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle .mobile-nav-medium .navbar-container:first-of-type {
+  /* line 75, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .mobile-nav-medium .navbar-container:first-of-type {
     padding-top: 3rem;
   }
-  /* line 83, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle .mobile-nav-medium .navbar-container:last-of-type {
+  /* line 79, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .mobile-nav-medium .navbar-container:last-of-type {
     padding-bottom: 3rem;
   }
-  /* line 90, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle input:not(:checked) ~ .navbar-container {
+  /* line 85, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .hamburger:not(:checked) ~ .navbar-container {
     display: none;
   }
-  /* line 94, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle input:checked ~ label span:nth-last-child(3) {
+  /* line 89, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .hamburger:checked ~ .hamburger-label span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
-  /* line 99, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle input:checked ~ label span:nth-last-child(2) {
+  /* line 94, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .hamburger:checked ~ .hamburger-label span:nth-last-child(2) {
     transform: rotate(45deg) translate(-5px, -12px);
   }
 }
@@ -303,7 +303,7 @@
     cursor: pointer;
   }
   /* line 21, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle label span {
+  .hamburger-label span {
     display: block;
     width: 32px;
     height: 4px;
@@ -316,28 +316,28 @@
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
   /* line 40, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle span:first-child {
+  .hamburger-line:first-child {
     transform-origin: 0% 0%;
   }
   /* line 44, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle span:nth-last-child(2) {
+  .hamburger-line:nth-last-child(2) {
     transform-origin: 0% 100%;
   }
   /* line 49, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle input:checked ~ label span {
+  .hamburger:checked ~ .hamburger-label span {
     opacity: 1;
     transform: rotate(-45deg) translate(2px, 2px);
     background: #232323;
   }
-  /* line 59, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle .mobile-nav-medium {
+  /* line 55, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .mobile-nav-medium {
     position: relative;
     flex-direction: column;
     z-index: 1;
     width: 100%;
   }
-  /* line 65, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle .mobile-nav-medium .navbar-container {
+  /* line 61, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .mobile-nav-medium .navbar-container {
     flex-direction: column;
     position: relative;
     z-index: 1;
@@ -345,34 +345,34 @@
     background-color: aqua;
     width: calc(100% - 6rem);
   }
-  /* line 73, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle .mobile-nav-medium .navbar-container .nav-menu {
+  /* line 69, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .mobile-nav-medium .navbar-container .nav-menu {
     position: relative;
     flex-direction: column;
     width: 100%;
   }
-  /* line 79, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle .mobile-nav-medium .navbar-container:first-of-type {
+  /* line 75, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .mobile-nav-medium .navbar-container:first-of-type {
     padding-top: 3rem;
   }
-  /* line 83, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle .mobile-nav-medium .navbar-container:last-of-type {
+  /* line 79, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .mobile-nav-medium .navbar-container:last-of-type {
     padding-bottom: 3rem;
   }
-  /* line 90, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle input:not(:checked) ~ .navbar-container {
+  /* line 85, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .hamburger:not(:checked) ~ .navbar-container {
     display: none;
   }
-  /* line 94, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle input:checked ~ label span:nth-last-child(3) {
+  /* line 89, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .hamburger:checked ~ .hamburger-label span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
-  /* line 99, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
-  .menuToggle input:checked ~ label span:nth-last-child(2) {
+  /* line 94, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  .hamburger:checked ~ .hamburger-label span:nth-last-child(2) {
     transform: rotate(45deg) translate(-5px, -12px);
   }
-  /* line 254, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
+  /* line 249, ../../Desktop/Kaerndal/Kaerndal/sass/navbar.scss */
   .mobile-nav-medium {
     height: 1.875rem;
   }

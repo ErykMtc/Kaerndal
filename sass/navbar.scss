@@ -1,13 +1,13 @@
 @import 'var.scss';
 
 @mixin menu-Toggle {
-    
-    .hamburger{
+
+    .hamburger {
         z-index: 0;
         position: absolute;
     }
 
-    .hamburger-label{
+    .hamburger-label {
         z-index: 3;
         display: block;
         position: absolute;
@@ -18,7 +18,7 @@
         cursor: pointer;
     }
 
-    .menuToggle label span {
+    .hamburger-label span {
         display: block;
         width: 32px;
         height: 4px;
@@ -37,71 +37,66 @@
             opacity 0.55s ease;
     }
 
-    .menuToggle span:first-child {
+    .hamburger-line:first-child {
         transform-origin: 0% 0%;
     }
 
-    .menuToggle span:nth-last-child(2) {
+    .hamburger-line:nth-last-child(2) {
         transform-origin: 0% 100%;
     }
 
 
-    .menuToggle input:checked~label span {
+    .hamburger:checked~.hamburger-label span {
         opacity: 1;
         transform: rotate(-45deg) translate(2px, 2px);
         background: #232323;
     }
 
+    .mobile-nav-medium {
+        position: relative;
+        flex-direction: column;
+        z-index: 1;
+        width: 100%;
 
-    // todo menutoggle niepotrzebane
-
-    .menuToggle {
-        .mobile-nav-medium{
-            position: relative;
+        .navbar-container {
             flex-direction: column;
+            position: relative;
             z-index: 1;
-            width: 100%;
+            padding: 0 3rem;
+            background-color: aqua;
+            width: calc(100% - 6rem);
 
-            .navbar-container {
-                flex-direction: column;
+            .nav-menu {
                 position: relative;
-                z-index: 1;
-                padding: 0 3rem;
-                background-color: aqua;
-                width: calc(100% - 6rem);
-    
-                .nav-menu {
-                    position: relative;
-                    flex-direction: column;
-                    width: 100%;
-                }
-    
-                &:first-of-type{
-                    padding-top: 3rem;
-                }
-    
-                &:last-of-type{
-                    padding-bottom: 3rem;
-                }
+                flex-direction: column;
+                width: 100%;
             }
-        } 
+
+            &:first-of-type {
+                padding-top: 3rem;
+            }
+
+            &:last-of-type {
+                padding-bottom: 3rem;
+            }
+        }
     }
 
-    .menuToggle input:not(:checked)~.navbar-container {
+    .hamburger:not(:checked)~.navbar-container {
         display: none;
     }
 
-    .menuToggle input:checked~label span:nth-last-child(3) {
+    .hamburger:checked~.hamburger-label span:nth-last-child(3) {
         opacity: 0;
         transform: rotate(0deg) scale(0.2, 0.2);
     }
 
-    .menuToggle input:checked~label span:nth-last-child(2) {
+    .hamburger:checked~.hamburger-label span:nth-last-child(2) {
         transform: rotate(45deg) translate(-5px, -12px);
     }
 }
 
-.hamburger{
+.hamburger {
     z-index: 0;
     position: absolute;
 }
@@ -238,7 +233,7 @@
 
 
 
-    
+
 
 
 }
@@ -251,8 +246,7 @@
 @media (max-width: 768px) {
     @include menu-Toggle;
 
-    .mobile-nav-medium{
+    .mobile-nav-medium {
         height: 1.875rem;
     }
 }
-

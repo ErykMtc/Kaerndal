@@ -743,41 +743,44 @@ html {
 /* line 716, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
 .container,
 .container-fluid {
+  box-sizing: border-box;
   width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
   margin-right: auto;
   margin-left: auto;
 }
 
 @media (min-width: 576px) {
-  /* line 726, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 727, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
   .container {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 732, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 733, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
   .container {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 738, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 739, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
   .container {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 744, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 745, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
   .container {
     max-width: 1140px;
   }
 }
 
 @media (min-width: 1400px) {
-  /* line 750, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+  /* line 751, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
   .container {
     max-width: 1320px;
   }
