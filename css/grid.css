@@ -1,3 +1,8 @@
+/* line 1, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
+* {
+  outline: 1px solid red;
+}
+
 /* line 7, ../../Desktop/Kaerndal/Kaerndal/sass/grid.scss */
 body,
 html {
@@ -718,8 +723,6 @@ html {
 .container,
 .container-fluid {
   width: 100%;
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
   margin-right: auto;
   margin-left: auto;
 }

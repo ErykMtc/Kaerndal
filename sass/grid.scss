@@ -1,6 +1,6 @@
-// *{
-//     outline: 1px solid red;
-// }
+*{
+    outline: 1px solid red;
+}
 
 $col-padding-width: 1rem;
 
@@ -716,8 +716,8 @@ html {
 .container,
 .container-fluid {
     width: 100%;
-    padding-right: 0.75rem;
-    padding-left: 0.75rem;
+    // padding-right: 0.75rem;
+    // padding-left: 0.75rem;
     margin-right: auto;
     margin-left: auto;
 }
