@@ -53,21 +53,38 @@
     }
 
 
-    // todo zmienic wyswietlanie
+    // todo menutoggle niepotrzebane
 
     .menuToggle {
-        .navbar-container {
-            position: absolute;
+        .mobile-nav-medium{
+            position: relative;
+            flex-direction: column;
             z-index: 1;
-            padding: 3rem;
-            background-color: aqua;
-            width: calc(100% - 6rem);
+            width: 100%;
 
-            .nav-menu {
+            .navbar-container {
                 flex-direction: column;
-                width: 100%;
+                position: relative;
+                z-index: 1;
+                padding: 0 3rem;
+                background-color: aqua;
+                width: calc(100% - 6rem);
+    
+                .nav-menu {
+                    position: relative;
+                    flex-direction: column;
+                    width: 100%;
+                }
+    
+                &:first-of-type{
+                    padding-top: 3rem;
+                }
+    
+                &:last-of-type{
+                    padding-bottom: 3rem;
+                }
             }
-        }
+        } 
     }
 
     .menuToggle input:not(:checked)~.navbar-container {
@@ -231,7 +248,11 @@
     @include menu-Toggle;
 }
 
-// @media (max-width: 768px) {
-//     @include menu-Toggle;
-// }
+@media (max-width: 768px) {
+    @include menu-Toggle;
+
+    .mobile-nav-medium{
+        height: 1.875rem;
+    }
+}
 
