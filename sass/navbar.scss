@@ -1,5 +1,6 @@
 @import 'var.scss';
 
+// display hamburger menu
 @mixin menu-Toggle {
 
     .hamburger {
@@ -101,6 +102,12 @@
     position: absolute;
 }
 
+/** 
+* navbar section include class like:
+*   size: small-nav, medium-nav, big-nav
+*   bg color: bg-color-white, bg-color-black... etc. look in _var.scss     
+*/
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -122,17 +129,30 @@
         }
     }
 
+    // to display logo
     &-logo {
         padding: 0.5rem;
         width: 5rem;
     }
 
+    /** 
+    * navbar-container include class like:
+    *   position section: nav-center, nav-left, nav-right, nav-top, nav-down
+    *   bg color: bg-color-white, bg-color-black... etc. look in _var.scss     
+    */
     &-container {
         flex: 1;
         padding: 0.5rem 1rem;
         display: flex;
         flex-direction: row;
 
+        /** 
+        * nav-menu include class like:
+        *   display type: default, menu-fluid
+        *   position section: menu-center, menu-left, menu-right
+        *   bg color: bg-color-white, bg-color-black... etc. look in _var.scss     
+        *   color style: red-style
+        */
         .nav-menu {
             list-style: none;
             padding: 0;
@@ -227,17 +247,11 @@
     .nav-down {
         align-items: flex-end;
     }
-
-
-
-
-
-
-
-
-
 }
 
+
+// resize section to mobile hamburger menu
+// todo all size
 
 @media (max-width: 576px) {
     @include menu-Toggle;

@@ -1,3 +1,9 @@
+/** 
+* button section include class like:
+*   size: button-size-xlarge, button-size-large, button-size-medium, button-size-small
+*   color: button-info, button-primary, button-success, button-danger, button-warning, button-link  
+*   opacity level: button-opacity-medium, button-opacity-high, button-opacity-low 
+*/
 .button {
     border: none;
     padding: 0.75rem 1rem;
@@ -98,8 +104,11 @@
 }
 
 
-// CheckBox
-
+/** 
+* checkbox section (have alternative version name 'classic-checkbox' looks like sq), include class like:
+*   size: checkbox-small, checkbox-primary-size, checkbox-medium, checkbox-large and default size
+*   color: checkbox-info, checkbox-primary, checkbox-success, checkbox-danger, checkbox-warning, checkbox-link  
+*/
 .checkbox {
     accent-color: #9b59b6;
 
@@ -160,6 +169,11 @@
     }
 }
 
+/** 
+* classic checkbox section include class like:
+*   size: classic-checkbox-small, classic-checkbox-medium, classic-checkbox-large and default size
+*   color: checkbox-info, checkbox-primary, checkbox-success, checkbox-danger, checkbox-warning, checkbox-link  
+*/
 .classic-checkbox {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -248,8 +262,11 @@
     }
 }
 
-//radio checkbox
-
+/** 
+* radio section include class like:
+*   size: radio-small, radio-medium, radio-large, radio-primary-size and default size
+*   color: radio-info, radio-primary, radio-success, radio-danger, radio-warning, radio-link and default color
+*/
 .radio{
     accent-color: #9b59b6;
 
@@ -310,8 +327,10 @@
     }
 }
 
-//switches
-
+/** 
+* switches section include class like:
+*   size: rounded-switch-label-small, rounded-switch-label-medium, rounded-switch-label-large and default size
+*/
 .rounded-switch {
     height: 0;
     width: 0;
@@ -422,8 +441,12 @@
 
 
 
-// input
-
+/** 
+* input section include class like:
+*   size: input-small, input-medium, input-large and default size
+*   color: input-info, input-primary, input-success, input-danger, input-warning, input-link and default color
+*   rounded version: input-rounded
+*/
 .input {
     font-size: 1rem;
     color: rgb(22, 24, 23);
@@ -509,8 +532,11 @@
     padding: 1rem 1.5rem;
 }
 
-// TextArea
-
+/** 
+* TextArea section include class like:
+*   size: textarea-small, textarea-medium, textarea-large and default size
+*   color: textarea-info, textarea-primary, textarea-success, textarea-danger, textarea-warning, textarea-link and default color
+*/
 .textarea {
     resize: vertical;
     border: 1px solid rgb(49, 46, 46);
@@ -588,8 +614,11 @@
     }
 }
 
-// Select
-
+/** 
+* Select section (have alternative version named 'select-special') include class like:
+*   size: select-small, select-medium, select-large and default size
+*   color: select-info, select-primary, select-success, select-danger, select-warning, select-link and default color
+*/
 .select {
     font-size: 1rem;
     border-radius: 4px;

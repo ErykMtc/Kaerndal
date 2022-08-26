@@ -1,6 +1,8 @@
-* {
-    outline: 1px solid red;
-}
+@import 'var.scss';
+
+// * {
+//     outline: 1px solid red;
+// }
 
 $col-padding-width: 1rem;
 
@@ -12,10 +14,10 @@ html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-// span{
-//     height: 1rem;
-// }
 
+/** 
+* row section is necessery to use columns
+*/
 .row {
     display: flex;
     flex-direction: row;
@@ -26,6 +28,21 @@ html {
         max-width: 100%;
     }
 
+    /** 
+    * column section include class like:
+    *   position: total-center, vertical-center, horizontal-center
+    *   bg color: bg-color-white, bg-color-black... etc. look in _var.scss     
+    *   size: bigger-1, bigger-2 to bigger-12
+    *         big-1 to big-12
+    *         xlarge-1 to xlarge-12
+    *         large-1 to large-12
+    *         medium-1 to medium-12
+    *         small-1 to small-12
+    *   offset size: offset-bigger-1, offset-bigger-2 to offset-bigger-11 
+    *                offset-big-1 to offset-big-12 analogic to size section
+    *
+    * size of section: >1400px, 1400-1200px, 1199-992px, 991-768px, 767-576px, 575-0px
+    */
     .col {
         flex: 1 0 auto;
         padding: 0.5rem;
@@ -713,6 +730,7 @@ html {
     }
 }
 
+// container section include bg-color
 .container,
 .container-fluid {
     box-sizing: border-box;
