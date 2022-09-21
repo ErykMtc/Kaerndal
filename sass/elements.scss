@@ -700,6 +700,7 @@
 }
 
 .select-special {
+    
     select {
         -webkit-appearance: none;
         -moz-appearance: none;
@@ -726,6 +727,7 @@
     background: #5c6664;
     overflow: hidden;
     border-radius: .25rem;
+    margin: 0.5rem 0;
 
     &:focus {
         border: 1px solid #999;

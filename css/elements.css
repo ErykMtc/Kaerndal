@@ -4,7 +4,7 @@
 *   color: button-info, button-primary, button-success, button-danger, button-warning, button-link  
 *   opacity level: button-opacity-medium, button-opacity-high, button-opacity-low 
 */
-/* line 7, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 7, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button {
   border: none;
   padding: 0.75rem 1rem;
@@ -14,112 +14,112 @@
   background-color: whitesmoke;
 }
 
-/* line 15, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 15, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button:hover {
   background-color: #ebebeb;
 }
 
-/* line 19, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 19, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-info {
   background-color: #18c5e4;
   color: white;
 }
 
-/* line 23, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 23, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-info:hover {
   background-color: #1ca5bd;
 }
 
-/* line 28, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 28, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-primary {
   background-color: #9314ce;
   color: white;
 }
 
-/* line 32, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 32, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-primary:hover {
   background-color: #560e77;
 }
 
-/* line 37, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 37, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-success {
   background-color: #0ed339;
   color: white;
 }
 
-/* line 41, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 41, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-success:hover {
   background-color: #0a631d;
 }
 
-/* line 46, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 46, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-danger {
   background-color: #e0371a;
   color: white;
 }
 
-/* line 50, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 50, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-danger:hover {
   background-color: #701c0d;
 }
 
-/* line 55, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 55, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-warning {
   background-color: #e4e118;
   color: white;
 }
 
-/* line 59, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 59, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-warning:hover {
   background-color: #9b9800;
 }
 
-/* line 64, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 64, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-link {
   background-color: #18e4b1;
   color: white;
 }
 
-/* line 68, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 68, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-link:hover {
   background-color: #0d795e;
 }
 
-/* line 73, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 73, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-size-xlarge {
   font-size: 2rem;
   padding: 1.75rem 2rem;
 }
 
-/* line 78, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 78, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-size-large {
   font-size: 1.5rem;
   padding: 1.25rem 1.5rem;
 }
 
-/* line 83, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 83, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-size-medium {
   font-size: 1.25rem;
   padding: 1rem 1.25rem;
 }
 
-/* line 88, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 88, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-size-small {
   font-size: 0.75rem;
   padding: 0.5rem 0.75rem;
 }
 
-/* line 93, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 93, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-opacity-medium {
   opacity: 50%;
 }
 
-/* line 97, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 97, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-opacity-high {
   opacity: 75%;
 }
 
-/* line 101, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 101, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .button.button-opacity-low {
   opacity: 25%;
 }
@@ -129,42 +129,42 @@
 *   size: checkbox-small, checkbox-primary-size, checkbox-medium, checkbox-large and default size
 *   color: checkbox-info, checkbox-primary, checkbox-success, checkbox-danger, checkbox-warning, checkbox-link  
 */
-/* line 112, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 112, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .checkbox {
   accent-color: #9b59b6;
 }
 
-/* line 115, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 115, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .checkbox.checkbox-info {
   accent-color: #18c5e4;
 }
 
-/* line 119, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 119, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .checkbox.checkbox-primary {
   accent-color: #9314ce;
 }
 
-/* line 123, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 123, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .checkbox.checkbox-success {
   accent-color: #0ed339;
 }
 
-/* line 127, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 127, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .checkbox.checkbox-danger {
   accent-color: #e0371a;
 }
 
-/* line 131, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 131, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .checkbox.checkbox-warning {
   accent-color: #e4e118;
 }
 
-/* line 135, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 135, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .checkbox.checkbox-link {
   accent-color: #18e4b1;
 }
 
-/* line 139, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 139, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .checkbox.checkbox-small {
   -ms-transform: scale(0.8);
   -moz-transform: scale(0.8);
@@ -173,7 +173,7 @@
   transform: scale(0.8);
 }
 
-/* line 147, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 147, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .checkbox.checkbox-primary-size {
   -ms-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -182,7 +182,7 @@
   transform: scale(1.2);
 }
 
-/* line 155, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 155, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .checkbox.checkbox-medium {
   -ms-transform: scale(1.5);
   -moz-transform: scale(1.5);
@@ -191,7 +191,7 @@
   transform: scale(1.5);
 }
 
-/* line 163, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 163, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .checkbox.checkbox-large {
   -ms-transform: scale(2);
   -moz-transform: scale(2);
@@ -205,7 +205,7 @@
 *   size: classic-checkbox-small, classic-checkbox-medium, classic-checkbox-large and default size
 *   color: checkbox-info, checkbox-primary, checkbox-success, checkbox-danger, checkbox-warning, checkbox-link  
 */
-/* line 177, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 177, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -219,12 +219,12 @@
   transition: 0.2s;
 }
 
-/* line 189, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 189, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox:checked {
   background-color: black;
 }
 
-/* line 195, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 195, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox.classic-checkbox-small {
   width: 0.75rem;
   height: 0.75rem;
@@ -232,7 +232,7 @@
   border: 2px solid white;
 }
 
-/* line 202, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 202, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox.classic-checkbox-medium {
   width: 1.375rem;
   height: 1.375rem;
@@ -240,7 +240,7 @@
   border: 4px solid white;
 }
 
-/* line 209, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 209, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox.classic-checkbox-large {
   width: 1.675rem;
   height: 1.675rem;
@@ -248,62 +248,62 @@
   border: 5px solid white;
 }
 
-/* line 216, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 216, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox.checkbox-info {
   --box-shadow-color:rgb(24, 197, 228);
 }
 
-/* line 219, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 219, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox.checkbox-info:checked {
   background-color: #18c5e4;
 }
 
-/* line 224, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 224, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox.checkbox-primary {
   --box-shadow-color:rgb(147, 20, 206);
 }
 
-/* line 227, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 227, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox.checkbox-primary:checked {
   background-color: #9314ce;
 }
 
-/* line 232, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 232, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox.checkbox-success {
   --box-shadow-color:rgb(14, 211, 57);
 }
 
-/* line 235, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 235, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox.checkbox-success:checked {
   background-color: #0ed339;
 }
 
-/* line 240, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 240, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox.checkbox-danger {
   --box-shadow-color:rgb(224, 55, 26);
 }
 
-/* line 243, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 243, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox.checkbox-danger:checked {
   background-color: #e0371a;
 }
 
-/* line 248, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 248, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox.checkbox-warning {
   --box-shadow-color:rgb(228, 225, 24);
 }
 
-/* line 251, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 251, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox.checkbox-warning:checked {
   background-color: #e4e118;
 }
 
-/* line 256, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 256, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox.checkbox-link {
   --box-shadow-color:rgb(24, 228, 177);
 }
 
-/* line 259, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 259, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .classic-checkbox.checkbox-link:checked {
   background-color: #18e4b1;
 }
@@ -313,42 +313,42 @@
 *   size: radio-small, radio-medium, radio-large, radio-primary-size and default size
 *   color: radio-info, radio-primary, radio-success, radio-danger, radio-warning, radio-link and default color
 */
-/* line 270, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 270, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .radio {
   accent-color: #9b59b6;
 }
 
-/* line 273, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 273, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .radio.radio-info {
   accent-color: #18c5e4;
 }
 
-/* line 277, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 277, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .radio.radio-primary {
   accent-color: #9314ce;
 }
 
-/* line 281, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 281, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .radio.radio-success {
   accent-color: #0ed339;
 }
 
-/* line 285, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 285, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .radio.radio-danger {
   accent-color: #e0371a;
 }
 
-/* line 289, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 289, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .radio.radio-warning {
   accent-color: #e4e118;
 }
 
-/* line 293, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 293, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .radio.radio-link {
   accent-color: #18e4b1;
 }
 
-/* line 297, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 297, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .radio.radio-small {
   -ms-transform: scale(0.8);
   -moz-transform: scale(0.8);
@@ -357,7 +357,7 @@
   transform: scale(0.8);
 }
 
-/* line 305, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 305, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .radio.radio-primary-size {
   -ms-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -366,7 +366,7 @@
   transform: scale(1.2);
 }
 
-/* line 313, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 313, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .radio.radio-medium {
   -ms-transform: scale(1.5);
   -moz-transform: scale(1.5);
@@ -375,7 +375,7 @@
   transform: scale(1.5);
 }
 
-/* line 321, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 321, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .radio.radio-large {
   -ms-transform: scale(2);
   -moz-transform: scale(2);
@@ -388,14 +388,14 @@
 * switches section include class like:
 *   size: rounded-switch-label-small, rounded-switch-label-medium, rounded-switch-label-large and default size
 */
-/* line 334, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 334, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch {
   height: 0;
   width: 0;
   visibility: hidden;
 }
 
-/* line 340, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 340, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch-label {
   cursor: pointer;
   text-indent: -9999px;
@@ -407,7 +407,7 @@
   position: relative;
 }
 
-/* line 351, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 351, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch-label:after {
   content: '';
   position: absolute;
@@ -420,30 +420,30 @@
   transition: 0.3s;
 }
 
-/* line 363, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 363, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch:checked + .rounded-switch-label {
   background: #bada55;
 }
 
-/* line 367, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 367, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch:checked + .rounded-switch-label:after {
   left: calc(100% - 3px);
   transform: translateX(-100%);
 }
 
-/* line 372, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 372, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch-label:active:after {
   width: 30px;
 }
 
-/* line 376, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 376, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch-label-small {
   width: 30px;
   height: 15px;
   border-radius: 15px;
 }
 
-/* line 381, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 381, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch-label-small::after {
   top: 2px;
   left: 2px;
@@ -452,24 +452,24 @@
   border-radius: 11px;
 }
 
-/* line 389, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 389, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch-label-small:active:after {
   width: 20px;
 }
 
-/* line 394, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 394, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch:checked + .rounded-switch-label-small:after {
   left: calc(100% - 2px);
 }
 
-/* line 398, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 398, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch-label-medium {
   width: 76px;
   height: 38px;
   border-radius: 38px;
 }
 
-/* line 403, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 403, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch-label-medium::after {
   top: 4px;
   left: 4px;
@@ -478,24 +478,24 @@
   border-radius: 30px;
 }
 
-/* line 411, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 411, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch-label-medium:active:after {
   width: 50px;
 }
 
-/* line 416, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 416, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch:checked + .rounded-switch-label-medium:after {
   left: calc(100% - 4px);
 }
 
-/* line 420, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 420, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch-label-large {
   width: 100px;
   height: 50px;
   border-radius: 50px;
 }
 
-/* line 425, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 425, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch-label-large::after {
   top: 5px;
   left: 5px;
@@ -504,12 +504,12 @@
   border-radius: 40px;
 }
 
-/* line 433, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 433, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch-label-large:active:after {
   width: 70px;
 }
 
-/* line 438, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 438, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .rounded-switch:checked + .rounded-switch-label-large:after {
   left: calc(100% - 5px);
 }
@@ -520,7 +520,7 @@
 *   color: input-info, input-primary, input-success, input-danger, input-warning, input-link and default color
 *   rounded version: input-rounded
 */
-/* line 450, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 450, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input {
   font-size: 1rem;
   color: #161817;
@@ -533,91 +533,91 @@
   transition: 0.1s;
 }
 
-/* line 461, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 461, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input:focus {
   outline: 2px solid rgba(219, 12, 12, 0.6);
   border: 1px solid #b10e0e;
 }
 
-/* line 466, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 466, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input.input-info {
   border-color: #18c5e4;
 }
 
-/* line 469, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 469, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input.input-info:focus {
   outline-color: rgba(0, 217, 255, 0.6);
 }
 
-/* line 474, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 474, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input.input-primary {
   border-color: #9314ce;
 }
 
-/* line 477, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 477, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input.input-primary:focus {
   border-color: rgba(174, 0, 255, 0.6);
 }
 
-/* line 482, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 482, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input.input-success {
   border-color: #0ed339;
 }
 
-/* line 485, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 485, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input.input-success:focus {
   border-color: rgba(0, 255, 55, 0.6);
 }
 
-/* line 490, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 490, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input.input-danger {
   border-color: #e0371a;
 }
 
-/* line 493, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 493, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input.input-danger:focus {
   border-color: rgba(255, 38, 0, 0.6);
 }
 
-/* line 498, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 498, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input.input-warning {
   border-color: #fffb00;
 }
 
-/* line 501, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 501, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input.input-warning:focus {
   border-color: rgba(228, 225, 24, 0.6);
 }
 
-/* line 506, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 506, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input.input-link {
   border-color: #00ffbf;
 }
 
-/* line 509, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 509, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input.input-link:focus {
   border-color: rgba(24, 228, 177, 0.6);
 }
 
-/* line 515, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 515, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input-rounded {
   border-radius: 1.25rem;
   padding: 0.675rem 1.25rem;
 }
 
-/* line 520, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 520, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input-small {
   font-size: 0.75rem;
   padding: 0.375rem 0.75rem;
 }
 
-/* line 525, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 525, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input-medium {
   font-size: 1.25rem;
   padding: 0.875rem 1.25rem;
 }
 
-/* line 530, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 530, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .input-large {
   font-size: 1.5rem;
   padding: 1rem 1.5rem;
@@ -628,7 +628,7 @@
 *   size: textarea-small, textarea-medium, textarea-large and default size
 *   color: textarea-info, textarea-primary, textarea-success, textarea-danger, textarea-warning, textarea-link and default color
 */
-/* line 540, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 540, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea {
   resize: vertical;
   border: 1px solid #312e2e;
@@ -638,85 +638,85 @@
   padding: 0.5rem;
 }
 
-/* line 548, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 548, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea:focus {
   outline: 2px solid rgba(219, 12, 12, 0.6);
   border: 1px solid #b10e0e;
 }
 
-/* line 553, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 553, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea.textarea-info {
   border-color: #18c5e4;
 }
 
-/* line 556, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 556, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea.textarea-info:focus {
   outline-color: rgba(0, 217, 255, 0.6);
 }
 
-/* line 561, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 561, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea.textarea-primary {
   border-color: #9314ce;
 }
 
-/* line 564, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 564, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea.textarea-primary:focus {
   border-color: rgba(174, 0, 255, 0.6);
 }
 
-/* line 569, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 569, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea.textarea-success {
   border-color: #0ed339;
 }
 
-/* line 572, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 572, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea.textarea-success:focus {
   border-color: rgba(0, 255, 55, 0.6);
 }
 
-/* line 577, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 577, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea.textarea-danger {
   border-color: #e0371a;
 }
 
-/* line 580, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 580, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea.textarea-danger:focus {
   border-color: rgba(255, 38, 0, 0.6);
 }
 
-/* line 585, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 585, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea.textarea-warning {
   border-color: #fffb00;
 }
 
-/* line 588, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 588, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea.textarea-warning:focus {
   border-color: rgba(228, 225, 24, 0.6);
 }
 
-/* line 593, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 593, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea.textarea-link {
   border-color: #00ffbf;
 }
 
-/* line 596, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 596, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea.textarea-link:focus {
   border-color: rgba(24, 228, 177, 0.6);
 }
 
-/* line 601, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 601, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea.textarea-small {
   font-size: 0.75rem;
   padding: 0.375rem;
 }
 
-/* line 606, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 606, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea.textarea-medium {
   font-size: 1.25rem;
   padding: 0.875rem;
 }
 
-/* line 611, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 611, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .textarea.textarea-large {
   font-size: 1.5rem;
   padding: 1rem;
@@ -727,7 +727,7 @@
 *   size: select-small, select-medium, select-large and default size
 *   color: select-info, select-primary, select-success, select-danger, select-warning, select-link and default color
 */
-/* line 622, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 622, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select {
   font-size: 1rem;
   border-radius: 4px;
@@ -738,93 +738,93 @@
   padding: 0 0.5rem;
 }
 
-/* line 631, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 631, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select:focus {
   outline: 2px solid rgba(219, 12, 12, 0.6);
   border: 1px solid #b10e0e;
 }
 
-/* line 636, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 636, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select.select-info {
   border-color: #18c5e4;
 }
 
-/* line 639, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 639, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select.select-info:focus {
   outline-color: rgba(0, 217, 255, 0.6);
 }
 
-/* line 644, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 644, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select.select-primary {
   border-color: #9314ce;
 }
 
-/* line 647, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 647, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select.select-primary:focus {
   border-color: rgba(174, 0, 255, 0.6);
 }
 
-/* line 652, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 652, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select.select-success {
   border-color: #0ed339;
 }
 
-/* line 655, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 655, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select.select-success:focus {
   border-color: rgba(0, 255, 55, 0.6);
 }
 
-/* line 660, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 660, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select.select-danger {
   border-color: #e0371a;
 }
 
-/* line 663, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 663, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select.select-danger:focus {
   border-color: rgba(255, 38, 0, 0.6);
 }
 
-/* line 668, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 668, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select.select-warning {
   border-color: #fffb00;
 }
 
-/* line 671, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 671, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select.select-warning:focus {
   border-color: rgba(228, 225, 24, 0.6);
 }
 
-/* line 676, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 676, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select.select-link {
   border-color: #00ffbf;
 }
 
-/* line 679, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 679, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select.select-link:focus {
   border-color: rgba(24, 228, 177, 0.6);
 }
 
-/* line 684, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 684, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select.select-small {
   font-size: 0.75rem;
   padding: 0 0.25rem;
 }
 
-/* line 689, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 689, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select.select-medium {
   height: 2.5rem;
   font-size: 1.25rem;
   padding: 0 0.75rem;
 }
 
-/* line 695, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 695, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select.select-large {
   height: 3rem;
   font-size: 1.5rem;
   padding: 0 1rem;
 }
 
-/* line 702, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 702, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select-special {
   position: relative;
   display: flex;
@@ -835,9 +835,10 @@
   background: #5c6664;
   overflow: hidden;
   border-radius: .25rem;
+  margin: 0.5rem 0;
 }
 
-/* line 703, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 704, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select-special select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -855,14 +856,14 @@
   font-size: 1rem;
 }
 
-/* line 730, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 732, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select-special:focus {
   border: 1px solid #999;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
   outline: none;
 }
 
-/* line 736, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 738, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select-special::after {
   content: '\25BC';
   position: absolute;
@@ -875,24 +876,24 @@
   transition: .25s all ease;
 }
 
-/* line 748, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 750, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select-special:hover::after {
   color: #5c6664;
 }
 
-/* line 752, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 754, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select-special.select-special-high {
   height: 3rem;
   width: 20rem;
   font-size: 1.25rem;
 }
 
-/* line 757, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 759, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select-special.select-special-high select {
   font-size: 1.125rem;
 }
 
-/* line 761, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 763, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select-special.select-special-high::after {
   content: '\25BC';
   font-size: 0.75rem;
@@ -906,19 +907,19 @@
   transition: .25s all ease;
 }
 
-/* line 775, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 777, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select-special.select-special-low {
   height: 1.5rem;
   width: 12rem;
   font-size: 0.75rem;
 }
 
-/* line 780, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 782, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select-special.select-special-low select {
   font-size: 0.75rem;
 }
 
-/* line 784, ../../Desktop/Kaerndal/Kaerndal/sass/elements.scss */
+/* line 786, D:/Kaerndal/Kaerndal/sass/elements.scss */
 .select-special.select-special-low::after {
   content: '\25BC';
   font-size: 0.5rem;
